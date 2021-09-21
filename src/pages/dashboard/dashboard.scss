@@ -1,0 +1,70 @@
+.dashboard{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(230, 230, 230);
+
+    .fourPack{
+        padding: 5px 20px 0;
+        display: flex;
+        justify-content: space-between;
+
+        .card{
+            flex: 1;
+            margin: 0 5px;
+            padding: 10px 5px 20px;
+            min-height: 50px;
+            border-radius: 5px;
+            background-color: #ffffff;
+            -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2); 
+            box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+
+            .text{
+                text-align: left;
+                margin-bottom: 20px;
+                color: #8b8b8b;
+            }
+            .total{
+                font-size: 30px;
+                color: #565656;
+            }
+        }
+    }
+
+    .twoPack{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        .card{
+            flex: 2;
+            margin: 0 5px;
+            padding: 10px 5px 20px;
+            min-height: 50px;
+            border-radius: 5px;
+            background-color: #ffffff;
+            -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2); 
+            box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+
+            .publish{
+                text-align: left;
+                margin: 10px;
+                font-size: 20px;
+                list-style: none;
+                padding: 0;
+
+                .list{
+                    display: flex;
+                    padding: 10px 0;
+                    border-bottom: 1px solid #e8e8e8;
+
+                    .number{
+                        margin-right: 10px;
+                    }
+                    .title{
+                        
+                    }
+                }
+            }
+        }
+    }
+}
